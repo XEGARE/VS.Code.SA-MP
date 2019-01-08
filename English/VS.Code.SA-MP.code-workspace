@@ -1,0 +1,50 @@
+{
+	"folders": [
+        {
+            "name": "Libraries",
+            "path": "compiler/include"
+
+        },
+        {
+            "name": "Resources",
+            "path": "sources"
+        },
+        {
+            "name": "Additional files",
+            "path": "scriptfiles"
+        },
+        {
+            "name": "Settings",
+            "path": "."
+        }
+    ],
+	"settings": {
+        "files.autoSave": "afterDelay",
+        "files.encoding": "windows1251",
+        "editor.lineNumbers": "on",
+        "files.exclude": {
+            "*/*.exe": true,
+            "**/*.exe": true,
+            ".vscode": true,
+            "compiler": true,
+            "gamemodes": true,
+            "plugins": true,
+            "logs": true,
+            "scriptfiles": true,
+            "sources": true,
+            "samp-license.txt": true,
+		    "server-readme.txt": true
+        },
+        "editor.rulers": [
+            76,
+            80,
+            100
+        ],
+        "editor.snippetSuggestions": "inline"
+    },
+    "extensions": {
+        "recommendations": [
+            "southclaws.vscode-pawn"
+        ]
+    }
+}
