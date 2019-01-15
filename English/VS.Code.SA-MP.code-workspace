@@ -24,6 +24,8 @@
         "editor.lineNumbers": "on",
         "files.exclude": {
             "*/*.exe": true,
+	    "**/*.dll": true,
+            "**/*.so": true,
             "**/*.exe": true,
             ".vscode": true,
             "compiler": true,
