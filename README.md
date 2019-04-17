@@ -6,7 +6,9 @@
 `4. Вам предложат установить расширение (в правом нижнем углу), согласитесь.`<br><br>
 ![Image Recommendations](https://i.imgur.com/oVsqaNj.jpg)<br><br>
 `5. Перезагрузите VS Code (если версия < 1.31) и приступайте к разработке`<br><br>
++ Компиляция сочетанием клавиш: **CTRL+SHIFT+B**<br><br>
 ![Image Workspace](https://i.imgur.com/62hJ4an.jpg)
+
 
 # Instruction:
 `1. Download and install Visual Studio Code if you do not have it.`<br>
@@ -16,4 +18,5 @@
 `4. You will be prompted to install the extension (in the lower right corner), agree.`<br><br>
 ![Image Recommendations](https://i.imgur.com/oVsqaNj.jpg)<br><br>
 `5. Reload VS Code (if verison < 1.31) and start development`<br><br>
++ Keyboard shortcut to compile: **CTRL+SHIFT+B**<br><br>
 ![Image Workspace](https://i.imgur.com/1nSXQJH.jpg)
