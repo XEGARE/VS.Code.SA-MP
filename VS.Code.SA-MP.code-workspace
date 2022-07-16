@@ -1,0 +1,60 @@
+{
+	"folders": [
+        {
+            "name": "Libraries",
+            "path": "pawno/include"
+        },
+        {
+            "name": "Resources",
+            "path": "sources"
+        },
+        {
+            "name": "Additional files",
+            "path": "scriptfiles"
+        },
+        {
+            "name": "Settings",
+            "path": "."
+        }
+    ],
+	"settings": {
+        "files.autoSave": "afterDelay",
+        "files.encoding": "windows1251",
+        "editor.lineNumbers": "on",
+		"editor.fontSize": 14,
+		"editor.insertSpaces": false,
+		"editor.detectIndentation": false,
+		"editor.cursorBlinking": "phase",
+		"editor.mouseWheelZoom": true,
+		"editor.mouseWheelScrollSensitivity": 2.0,
+        "files.exclude": {
+            "*/*.exe": true,
+            "**/*.dll": true,
+            "**/*.so": true,
+            "**/*.exe": true,
+            ".vscode": true,
+            "pawno": true,
+            "gamemodes": true,
+            "plugins": true,
+            "models": true,
+            "include": true,
+            "npcmodes": true,
+            "filterscripts": true,
+            "logs": true,
+            "scriptfiles": true,
+            "sources": true,
+            "samp-license.txt": true,
+		    "server-readme.txt": true
+        },
+        "editor.snippetSuggestions": "inline",
+		"editor.roundedSelection": false,
+		"files.associations": {"*.pwn": "pawn"},
+		"vscode-color-picker.languages": ["pawn"]
+    },
+    "extensions": {
+        "recommendations": [
+            "southclaws.vscode-pawn",
+			"AntiAntiSepticeye.vscode-color-picker"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+	"command": "${workspaceRoot}/pawno/pawn.bat",
+    "args": ["${file}","-D${workspaceRoot}/gamemodes","-i${workspaceRoot}/pawno/include","-O1","-d0"],
+    "group": {
+        "kind": "build",
+        "isDefault": true
+    },
+    "isBackground": false,
+    "presentation": {
+		"echo": false,
+		"showReuseMessage": false,
+		"clear": true
+    },
+	"problemMatcher": "$pawncc"
+}
