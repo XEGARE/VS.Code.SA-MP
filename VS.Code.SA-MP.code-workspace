@@ -1,15 +1,19 @@
 {
 	"folders": [
         {
-            "name": "Libraries",
+            "name": "Includes",
             "path": "pawno/include"
         },
         {
-            "name": "Resources",
-            "path": "sources"
+            "name": "Filterscripts",
+            "path": "filterscripts"
         },
         {
-            "name": "Additional files",
+            "name": "Gamemodes",
+            "path": "gamemodes"
+        },
+        {
+            "name": "Scriptfiles",
             "path": "scriptfiles"
         },
         {
@@ -28,11 +32,13 @@
 		"editor.mouseWheelZoom": true,
 		"editor.mouseWheelScrollSensitivity": 2.0,
         "files.exclude": {
-            "*/*.exe": true,
-            "**/*.dll": true,
-            "**/*.so": true,
-            "**/*.exe": true,
+            "*.exe": true,
+            "*.dll": true,
+            "*.so": true,
+			"*.amx": true,
+			"*.md": true,
             ".vscode": true,
+			".gitkeep": true,
             "pawno": true,
             "gamemodes": true,
             "plugins": true,
